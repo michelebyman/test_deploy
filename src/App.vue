@@ -2,11 +2,14 @@
     <div class="wrapper-column">
         <div @click="lightOnOff()" class="wrapper-center-content">
             <div class="left-nav">
-                <div class="about">
+                <div class="nav-about ">
                     <p @click="navigate" class="nav-lg about">About</p>
                 </div>
-                <div class="mywork">
-                    <p @click="navigate" class="nav-lg mywork">My Work</p>
+                <div class="nav-mywork">
+                        <div class="text-wrapper">
+                                 <p @click="navigate" class="nav-lg mywork">My Work</p>
+                        </div>
+                   
                 </div>
             </div>
             <div class="ipad">
@@ -31,7 +34,13 @@
                 </div>
             </div>
             <div class="right-nav">
-                <div class="contact">
+                    <div class="book">
+                            <div class="cover">
+
+                            </div>
+                            
+                    </div>
+                <div class="nav-contact">
                     <p @click="navigate" class="nav-lg contact">Contact</p>
                 </div>
             </div>
@@ -154,7 +163,6 @@ h2 {
     .wrapper-column {
         height: 100vh;
         width: 100vw;
-        background: #f06744;
     }
     .wrapper-center-content {
         height: 85vh;
@@ -164,6 +172,130 @@ h2 {
 
         background: #abd2d7;
     }
+ .nav-lg {
+         font-size: 1.6rem;
+         font-weight: bold;
+         color: white;
+ }
+ .nav-lg:hover {
+         color: #f06744;
+         cursor: pointer;
+ }
+
+.nav-about {
+    width: 70%;
+    background-color: #2f5770;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav-about::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1rem;
+    right: 1.1rem;
+    background-color: #ffffff;
+}
+
+.nav-mywork {
+    background-color: #645960;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: -2rem;
+}
+
+.text-wrapper {
+    background-color: #4d494d;
+height: inherit;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-contact{
+    background-color: #75807d;
+    width: 80%;
+    height: 3rem;
+    position: relative;
+    margin-left: -1rem;
+    display: flex;
+        justify-content: center;
+        align-items: center
+
+}
+
+.nav-contact::after {
+    content: "";
+    width: 0.3rem;
+    height: 100%;
+    background-color: #2f5770;
+    position: absolute;
+    right: 0.7rem;
+}
+.nav-contact:before {
+    content: "";
+    width: 0.3rem;
+    height: 100%;
+    background-color: #2f5770;
+    position: absolute;
+    right: 1.2rem;
+}
+
+.book {
+         background-color: #f06744;
+    width: 50%;
+    height: 6rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    position: relative;
+    margin-left: -1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+       
+}
+.cover {
+          background-color: white;
+    width: 88%;
+    height: 4rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-right: 0.3rem solid #abd2d7;
+    position: relative;
+}
+
+.cover::after {
+        content: "";
+        top: 40%;
+        right:0;
+        background: #000;
+        width: 97%;
+        height: .1rem;
+        border-radius: 50%;
+        position: absolute;
+        border-right: 0.2rem solid #abd2d7;
+        border-left: 0.2rem solid #f06744;
+}
+.cover::before {
+        content: "";
+        top: 60%;
+        right:0;
+        background: #000;
+        width: 98%;
+        height: .1rem;
+        border-radius: 50%;
+        border-right: 0.1rem solid #abd2d7;
+        border-left: 0.1rem solid #f06744;
+        position: absolute;
+}
+
 
     .ipad {
         margin-top: 3rem;
@@ -175,6 +307,8 @@ h2 {
         grid-row-start: 3;
         grid-column-start: 2;
         position: relative;
+        box-shadow: 0px 0px 56px -13px rgb(80, 80, 80);
+        z-index: 10;
     }
 
     .on-off-button {
@@ -203,6 +337,7 @@ h2 {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        align-items: flex-end;
         padding-left: 2rem;
         grid-row-start: 3;
     }
