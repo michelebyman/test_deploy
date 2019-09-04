@@ -53,7 +53,7 @@ export default {
     transition: all 0.5s ease-out;
 }
 
-.box:hover {
+.box:active {
     padding: 10px 5px 10px 5px;
     background-color: #2f5770;
     transition: all 0.5s ease-out;
