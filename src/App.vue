@@ -61,7 +61,9 @@ h1 {
 }
 
 h2 {
+    font-size: 1rem;
     font-weight: 300;
+    padding: 0.1rem;
 }
 .secondary-color {
     color: #f06744;

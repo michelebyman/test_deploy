@@ -70,19 +70,11 @@ export default {
 a {
     color: white;
 }
-h2 {
-    font-size: 1rem;
-    font-weight: 300;
-}
 i {
     font-size: 1.5rem;
     margin: 0.5rem;
 }
 
-i:hover {
-    color: #f06744;
-    transition: all 0.3s ease-out;
-}
 
 .apps-icons,
 .apps-names {
@@ -162,6 +154,13 @@ i:hover {
         margin: auto;
         font-size: 0.7rem;
     }
+    
+    .background-wrapper {
+    background-color: #57585a;
+}
+
+
+
 
   
 }
