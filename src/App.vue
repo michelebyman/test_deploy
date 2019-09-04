@@ -19,6 +19,29 @@
   </div>
 </template>
 
+<script>
+export default {
+        data() {
+                return {
+                        time: ''
+                }
+        },
+        mounted() {
+                setInterval(this.getTime, 1000);
+        },
+        methods: {
+                 getTime() {
+            this.time = new Date().toLocaleTimeString([], {
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit"
+            });
+                
+        }
+        }
+}
+</script>
+
 <style>
 body {
         box-sizing: border-box;
