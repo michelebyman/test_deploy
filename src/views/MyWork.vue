@@ -130,7 +130,7 @@ a {
 .grid-projects {
     display: grid;
     grid-gap: 1.2rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
      padding-bottom: 2rem;
 }
 
@@ -177,9 +177,9 @@ a {
 .disabled:hover {
         background: grey;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1025px) {
     .grid-projects {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 </style>

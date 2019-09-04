@@ -23,7 +23,7 @@
             <div @click="navigate($event)" class="about"></div>
 
             <div @click="navigate($event)" class="mywork">
-                    <i class="fas fa-tasks"></i>
+                <i class="fas fa-tasks"></i>
             </div>
 
             <div @click="navigate($event)" class="contact-apps"></div>
@@ -37,10 +37,10 @@
 </template>
 
 <script>
-import { log } from "util";
+
 export default {
     methods: {
-        navigate(e) {       
+        navigate(e) {
             switch (e.target.className) {
                 case "about":
                     this.$router.push("/about");
@@ -76,14 +76,9 @@ i {
 }
 
 
-.apps-icons,
-.apps-names {
-    display: none;
-}
 
-@media screen and (max-width: 1024px) {
-    .apps-icons {
-            margin-top: 3rem;
+ .apps-icons {
+        margin-top: 3rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
@@ -101,7 +96,7 @@ i {
         align-items: center;
     }
     .about {
-     background-image: linear-gradient(to right, #2f5770, #6f97b1);
+        background-image: linear-gradient(to right, #2f5770, #6f97b1);
     }
 
     .about::after {
@@ -111,7 +106,7 @@ i {
         border-radius: 50%;
         border: 0.08rem solid #fff;
         /* background-image: linear-gradient(-55deg, #f06744, #6f97b1); */
-        background-image: url("../assets/images/portrait.jpg") ;
+        background-image: url("../assets/images/portrait.jpg");
         background-size: 100%;
     }
     .mywork {
@@ -119,17 +114,13 @@ i {
         position: relative;
     }
 
-
-  
-    
     .contact-apps {
-
-         background-image: linear-gradient(to top, #75807d, #c7cecc);
-         position: relative;
+        background-image: linear-gradient(to top, #75807d, #c7cecc);
+        position: relative;
     }
 
     .contact-apps::after {
-           content: "";
+        content: "";
         height: 2.3rem;
         width: 2.3rem;
         position: absolute;
@@ -138,9 +129,9 @@ i {
     }
 
     .contact-apps::before {
-           content: "C";
-           color: #4d494d;
-      font-weight: bold;
+        content: "C";
+        color: #4d494d;
+        font-weight: bold;
         z-index: 12;
     }
 
@@ -154,14 +145,22 @@ i {
         margin: auto;
         font-size: 0.7rem;
     }
-    
+
     .background-wrapper {
-    background-color: #57585a;
+        background-color: #57585a;
+    }
+
+@media screen and (min-width: 1025px) {
+        .apps-icons,
+.apps-names {
+    display: none;
+}
+
+i:hover {
+    color: #f06744;
+    transition: all 0.3s ease-out;
 }
 
 
-
-
-  
 }
 </style>

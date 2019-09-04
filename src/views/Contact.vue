@@ -6,15 +6,15 @@
         </h1>
 
         <p class="background-wrapper ">Reach out to me...</p>
-        <div class="email box">
+        <div class="box">
             <span class="secondary-color">Email: &nbsp;</span>
             michelebyman@gmail.com
         </div>
-        <div class="phone box">
+        <div class="box" >
             <span class="secondary-color">Phone: &nbsp;</span>
             (+46) 765-825051
         </div>
-        <div class="adress box">
+        <div class="box">
             <span class="secondary-color">Adress: &nbsp;</span>
             Vällduevägen 1, lgh 1002,
             352 51 Växjö,
@@ -33,10 +33,10 @@ export default {
              
         },
         methods: {
-                        addCssO() {
+                        addCssO(e) {
                                 console.log(this.addCss);
-                                
-                                this.addCss = !this.addCss
+                                console.log(e);
+                                        this.addCss = !this.addCss
                         }
                 }
 
@@ -68,18 +68,17 @@ export default {
     transition: all 0.5s ease-out;
 }
 
-.box:hover {
-    padding: 10px 5px 10px 5px;
-    background-color: #2f5770;
-    transition: all 0.5s ease-out;
-}
 
-@media screen and (max-width: 1024px) {
-       .box-click {
+
+
+
+@media screen and (min-width: 1025px) {
+        .box:hover {
     padding: 10px 5px 10px 5px;
     background-color: #2f5770;
     transition: all 0.5s ease-out;
-} 
+}  
+
 }
 
 
