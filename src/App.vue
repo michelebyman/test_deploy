@@ -20,8 +20,10 @@
 </template>
 
 <style>
-*html {
+body {
         box-sizing: border-box;
+        padding: 0;
+        margin: 0;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
