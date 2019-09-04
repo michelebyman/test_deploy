@@ -12,12 +12,6 @@
             </p>
         </div>
         <router-view />
-
-         <div id="nav">
-            <router-link to="/">Home</router-link> 
-            <router-link to="/about">About</router-link> 
-            <router-link to="/contact">Contact</router-link>
-        </div>
     </div>
 </template>
 
@@ -50,32 +44,39 @@ body {
     margin: 0;
 }
 #app {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    
+         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    background-color: #4d4e50;
+    text-align: left;
+      color: #fff;
+      background-color: #4d494d;
         min-height: 100vh;
-}
-#nav {
-    padding: 30px;
-    background-color: #4d4e50;
+
+   
 }
 
-#nav a {
-    font-weight: bold;
-    color: #2c3e50;
+h1 {
+    margin-top: 5rem;
 }
 
-#nav a.router-link-exact-active {
-    color: #42b983;
+h2 {
+    font-weight: 300;
 }
+.secondary-color {
+    color: #f06744;
+}
+
+.background-wrapper {
+    background-color: #57585a;
+    padding-left: 0.4rem;
+}
+
 
 .info-bar {
     
     color: white;
-    background-color: #4d4e50;
+    background-color: #4d494d;
     font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
