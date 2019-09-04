@@ -5,7 +5,7 @@
             <span class="secondary-color">me</span>
         </h1>
 
-        <p class="background-wrapper">Reach out to me...</p>
+        <p class="background-wrapper ">Reach out to me...</p>
         <div class="email box">
             <span class="secondary-color">Email: &nbsp;</span>
             michelebyman@gmail.com
@@ -25,7 +25,22 @@
 
 <script>
 export default {
-      
+        data() {
+                return {
+                           addCss: false
+                }
+                
+             
+        },
+        methods: {
+                        addCssO() {
+                                console.log(this.addCss);
+                                
+                                this.addCss = !this.addCss
+                        }
+                }
+
+
 }
 </script>
 
@@ -53,10 +68,18 @@ export default {
     transition: all 0.5s ease-out;
 }
 
-.box:active {
+.box:hover {
     padding: 10px 5px 10px 5px;
     background-color: #2f5770;
     transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 1024px) {
+       .box-click {
+    padding: 10px 5px 10px 5px;
+    background-color: #2f5770;
+    transition: all 0.5s ease-out;
+} 
 }
 
 
