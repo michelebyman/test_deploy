@@ -18,6 +18,9 @@
 }
 #nav {
   padding: 30px;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 #nav a {
