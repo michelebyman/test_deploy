@@ -11,11 +11,13 @@
                 <i class="fas fa-battery-full"></i>
             </p>
         </div>
-        <div id="nav">
-            <router-link to="/">Home</router-link>|
-            <router-link to="/about">About</router-link>
-        </div>
         <router-view />
+
+         <div id="nav">
+            <router-link to="/">Home</router-link> 
+            <router-link to="/about">About</router-link> 
+            <router-link to="/contact">Contact</router-link>
+        </div>
     </div>
 </template>
 
@@ -58,8 +60,6 @@ body {
 }
 #nav {
     padding: 30px;
-    /* position: sticky;
-  top: 0; */
     background-color: #4d4e50;
 }
 
