@@ -14,7 +14,7 @@
             </div>
             <div class="ipad">
                 <div id="app">
-                    <div class="info-bar">
+                    <div v-sticky class="info-bar">
                         <p class="info-library">
                             Vue.js
                             <i class="fas fa-wifi"></i>
@@ -145,8 +145,8 @@ h2 {
     font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    top: 0rem;
+    /* position: sticky;
+    top: 0rem; */
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     z-index: 10000000;
@@ -176,10 +176,15 @@ h2 {
          font-size: 1.6rem;
          font-weight: bold;
          color: white;
+             transition: all 0.3s ease-out;
+         opacity: 0;
+             animation: fill 5s steps(7, start) forwards;
+             animation-delay: 1s;
  }
  .nav-lg:hover {
          color: #f06744;
          cursor: pointer;
+         transition: all 0.3s ease-out;
  }
 
 .nav-about {
@@ -363,9 +368,23 @@ height: inherit;
         align-items: center;
     }
 
+  
+@keyframes fill {
+  to {
+    opacity: 1;
+  }
+}
+    
+
     footer {
         color: white;
     }
+
+    @keyframes fill {
+  to {
+    opacity: 1;
+  }
+}
 
     @keyframes light {
         0% {

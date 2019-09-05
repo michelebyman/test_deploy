@@ -7,6 +7,13 @@ Vue.config.productionTip = false
 
 Vue.use(VuePageTransition);
 
+Vue.directive('sticky', {
+        bind(el, binding, vnode) {
+                el.style.position = 'sticky';
+                el.style.top = '0px';
+        }
+})
+
 new Vue({
   router,
   render: h => h(App)

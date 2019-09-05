@@ -6,14 +6,22 @@
         </h1>
         <h2 class="background-wrapper">Some things I want to share with you...</h2>
         <div class="grid-about">
-            <img src="../assets/images/portrait.jpg" alt />
+                <div class="wrapper-animation">
+                        <div class="background-circle">
+                          
+                </div>
+                <img src="../assets/images/portrait.jpg" alt />
+                </div>
+                
+          
 
             <div class="bio">
                 <h2 class="secondary-color">BIO</h2>
                 <p>My name is Michele Byman and I am studying to become a front-end developer in Växjö a small town in the south east of Sweden. I am probably not the typical programer out there, I have a background in sales and in the health field. I am a social guy with lots of interest in skateboarding, health and meditation beside my interest to be a good developer. I love solving problems so my brain gets to work intensely!</p>
             </div>
-
+        
             <div class="job job-1">
+                    <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
                 <h3>Student @ EC-Education</h3>
                 <h6>Front-End Developer</h6>
                 <p>
@@ -30,13 +38,17 @@
                     <li>UX Design &amp; Graphic Imaging</li>
                     <li>HTML5 &amp; CSS3 with SEO</li>
                 </ul>
+                </a>
             </div>
             <div class="job job-2">
+                    <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
                 <h3>Life Hälsokostbutik</h3>
                 <h6>Sales Representative</h6>
                 <p>As a sales representative at Life I sold (health product) and educated people in the health field.</p>
+                  </a>
             </div>
             <div class="job job-3">
+                    <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
                 <h3>Rawsome Experience</h3>
                 <h6>Owner</h6>
                 <p>
@@ -47,6 +59,7 @@
                         target="_blank"
                     >e-book</a>
                 </p>
+                  </a>
             </div>
         </div>
     </div>
@@ -79,12 +92,30 @@ export default {
         padding-bottom: 2rem;
 }
 
+.wrapper-animation {
+position: relative;
+display: flex;
+        justify-content: center;
+        align-items: center;
+           margin-top: 1.5rem;
+}
+
+.background-circle {
+        border-radius: 50%;
+        height: 8.3rem;
+        width: 8.3rem;
+        background: linear-gradient(90deg,  #f06744, #fff);
+        animation: rotate 4s steps(60, end) infinite;
+        
+}
+
 img {
     border-radius: 50%;
-    border: 0.175rem solid #f06744;
     height: 8rem;
     grid-area: bioimage;
-    margin: auto;
+    position: absolute;
+
+
 }
 
 .bio {
@@ -120,6 +151,21 @@ img {
     color: #fff;
 }
 
+.card-a {
+        color: white;
+        text-decoration: none;
+}
+
+
+
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 @media screen and (min-width: 1024px){
          .grid-about {
@@ -129,8 +175,6 @@ img {
             "job3 job1 job1"
             "job2 job2 job2";
 }
-    img {
-    margin-top: 1rem;
-}
+
 }
 </style>

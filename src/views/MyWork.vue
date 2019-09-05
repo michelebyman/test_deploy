@@ -170,7 +170,7 @@ a {
 
 
 .disabled {
-        text-decoration-line: line-through;
+    
         pointer-events: none;
   cursor: default;
 }

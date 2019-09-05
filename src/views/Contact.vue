@@ -16,7 +16,7 @@
         </div>
         <div class="box">
             <span class="secondary-color">Adress: &nbsp;</span>
-            Vällduevägen 1, lgh 1002,
+            Välluddevägen 1, lgh 1002,
             352 51 Växjö,
             Sweden
         </div>
@@ -59,6 +59,7 @@ export default {
 
 .contact-wrapper {
           padding: 0 1.6rem 0 1.6rem;
+           padding-bottom: 2rem;
 }
 .box {
     border: 0.1rem solid white;
@@ -73,11 +74,11 @@ export default {
 
 
 @media screen and (min-width: 1025px) {
-        .box:hover {
+        /* .box:hover {
     padding: 10px 5px 10px 5px;
     background-color: #2f5770;
     transition: all 0.5s ease-out;
-}  
+}   */
 
 }
 
