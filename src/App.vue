@@ -37,9 +37,7 @@
             </div>
             <div class="right-nav">
                     <div class="book">
-                            <div class="cover">
-
-                            </div>
+                            <div class="cover"></div>
                             
                     </div>
                 <div class="nav-contact">
@@ -341,6 +339,7 @@ height: inherit;
         align-items: flex-end;
         padding-left: 2rem;
         grid-row-start: 3;
+          margin-bottom: 0.2rem;
     }
     .right-nav {
         display: flex;
@@ -348,6 +347,7 @@ height: inherit;
         justify-content: flex-end;
         padding-right: 2rem;
         grid-row-start: 3;
+        margin-bottom: 0.2rem;
     }
     #app {
         max-height: 70vh;
