@@ -66,6 +66,7 @@ export default {
 <style scoped>
 .home-wrapper {
     padding: 0 1.6rem 0 1.6rem;
+    
 }
 a {
     color: white;
@@ -73,7 +74,7 @@ a {
 i {
     font-size: 1.5rem;
     margin: 0.5rem;
-}
+} 
 
 
 
@@ -160,6 +161,8 @@ i:hover {
     color: #f06744;
     transition: all 0.3s ease-out;
 }
+
+
 
 
 }

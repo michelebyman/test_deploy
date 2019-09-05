@@ -3,11 +3,11 @@
         <div @click="lightOnOff()" class="wrapper-center-content">
             <div class="left-nav">
                 <div class="nav-about ">
-                    <p @click="navigate" class="nav-lg about">About</p>
+                         <router-link class="nav-lg" to="/about">About</router-link>
                 </div>
                 <div class="nav-mywork">
                         <div class="text-wrapper">
-                                 <p @click="navigate" class="nav-lg mywork">My Work</p>
+                                 <router-link class="nav-lg" to="/mywork">My Work</router-link>
                         </div>
                    
                 </div>
@@ -29,9 +29,11 @@
                         <router-view />
                     </vue-page-transition>
                 </div>
-                <div @click="navigate" class="on-off-button">
-                    <div @click="navigate" v-if="homeScreen" class="light"></div>
+                <router-link to="/">
+                <div @click="lightOnOff" class="on-off-button">
+                    <div  v-if="homeScreen" class="light"></div>
                 </div>
+                </router-link>
             </div>
             <div class="right-nav">
                     <div class="book">
@@ -41,7 +43,8 @@
                             
                     </div>
                 <div class="nav-contact">
-                    <p @click="navigate" class="nav-lg contact">Contact</p>
+                        <router-link class="nav-lg" to="/contact">Contact</router-link>
+                   
                 </div>
             </div>
         </div>
@@ -57,14 +60,18 @@ export default {
     data() {
         return {
             time: "",
-            homeScreen: true
+            homeScreen: false
         };
     },
     mounted() {
         setInterval(this.getTime, 1000);
+        this.lightOnOff();
     },
     methods: {
         lightOnOff() {
+                console.log(this.$route.path);
+                console.log(this.homeScreen);
+                
             if (this.$route.path != "/") {
                 this.homeScreen = true;
             } else if (this.homeScreen && this.$route.path === "/") {
@@ -78,29 +85,6 @@ export default {
                 second: "2-digit"
             });
         },
-        navigate(e) {
-            console.log("fix later!");
-            console.log(e.target.className);
-            console.log(this.$route.path);
-
-            switch (e.target.className) {
-                case "nav-lg about":
-                    this.$router.push("/about");
-                    break;
-                case "nav-lg mywork":
-                    this.$router.push("/mywork");
-                    break;
-                case "nav-lg contact":
-                    this.$router.push("/contact");
-                    break;
-                case "on-off-button":
-                    this.$router.push("/");
-                    break;
-
-                default:
-                    break;
-            }
-        }
     }
 };
 </script>
@@ -147,6 +131,7 @@ h2 {
     justify-content: space-between;
     /* position: sticky;
     top: 0rem; */
+    /* did a Vue-directive check main js*/
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     z-index: 10000000;
@@ -178,14 +163,22 @@ h2 {
          color: white;
              transition: all 0.3s ease-out;
          opacity: 0;
-             animation: fill 5s steps(7, start) forwards;
+             animation: fill 2s ease-out forwards;
              animation-delay: 1s;
+             text-decoration: none;
  }
  .nav-lg:hover {
          color: #f06744;
          cursor: pointer;
          transition: all 0.3s ease-out;
  }
+
+ 
+ a.router-link-exact-active {
+    color: #f06744;
+    text-decoration-line: none;
+}
+
 
 .nav-about {
     width: 70%;
@@ -314,6 +307,9 @@ height: inherit;
         position: relative;
         box-shadow: 0px 0px 56px -13px rgb(80, 80, 80);
         z-index: 10;
+        animation: zoomOut 2s ease-out forwards;
+    animation-delay: 2.5s;
+     opacity: 0;
     }
 
     .on-off-button {
@@ -358,6 +354,9 @@ height: inherit;
         min-height: 70vh;
         width: 40vw;
         overflow: auto;
+        animation: zoomOut 2s ease-out forwards ;
+    animation-delay: 2.5s;
+    opacity: 0;
     }
 
     .lower-backgroundColor {
@@ -368,17 +367,23 @@ height: inherit;
         align-items: center;
     }
 
-  
-@keyframes fill {
-  to {
-    opacity: 1;
-  }
-}
     
 
     footer {
         color: white;
     }
+
+    @keyframes zoomOut {
+    0% {
+            transform: scale(1.2);
+            
+    }  
+
+    100% {
+            transform:scale(1);
+            opacity: 1;
+    }  
+}
 
     @keyframes fill {
   to {
