@@ -60,13 +60,10 @@ export default {
     },
     mounted() {
         setInterval(this.getTime, 1000);
-        this.lightOnOff();
+      
     },
     methods: {
         lightOnOff() {
-            console.log(this.$route.path);
-            console.log(this.homeScreen);
-
             if (this.$route.path != "/") {
                 this.homeScreen = true;
             } else if (this.homeScreen && this.$route.path === "/") {
