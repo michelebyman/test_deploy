@@ -143,7 +143,8 @@ h2 {
     .wrapper-column {
         height: 100vh;
         width: 100vw;
-         background-color: #74a4a4;
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
     }
     .wrapper-center-content {
         display: grid;
@@ -353,8 +354,10 @@ h2 {
         background-color: #74a4a4;
         display: flex;
         justify-content: center;
-        padding:3rem;
-        align-items:baseline;
+        align-items:center;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        min-height: 7rem;
     }
 
     footer {
