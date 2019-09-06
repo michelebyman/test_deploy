@@ -6,15 +6,21 @@
         </h1>
 
         <p class="background-wrapper ">Reach out to me...</p>
-        <div class="box">
+
+         <a class="contact" href=mailto:michelebyman@gmail.com>
+        <div class="box clickable">
             <span class="secondary-color">Email: &nbsp;</span>
-            michelebyman@gmail.com
+        <span>Click here to send me an email</span>
+        
         </div>
-        <div class="box" >
+        </a>
+        <a class="contact" href="tel:0046-765-825051">
+        <div class="box clickable" >
             <span class="secondary-color">Phone: &nbsp;</span>
-            (+46) 765-825051
+            <span>Click to call me</span>
         </div>
-        <div class="box">
+        </a>
+        <div class="box-email">
             <span class="secondary-color">Adress: &nbsp;</span>
             Välluddevägen 1, lgh 1002,
             352 51 Växjö,
@@ -45,25 +51,14 @@ export default {
 </script>
 
 <style scoped>
-.back {
-            display: block;
-                text-align: center;
-                position: absolute;
-                bottom: 0;
-                background: #4d494d;
-                left: 50%; 
-                 transform: translate(-50%, -50%) 
-                
-    }
-
 
 .contact-wrapper {
           padding: 0 1.6rem 0 1.6rem;
            padding-bottom: 2rem;
 }
-.box {
+.box, .box-email {
     border: 0.1rem solid white;
-    padding: 25px 15px 25px 15px;
+    padding: 1rem 1rem;
     margin: 1rem;
     width: calc(100% - 60px);
     transition: all 0.5s ease-out;
@@ -72,13 +67,18 @@ export default {
 
 
 
+.contact {
+        text-decoration: none;
+        color: white;
+}
+
 
 @media screen and (min-width: 1025px) {
-        /* .box:hover {
-    padding: 10px 5px 10px 5px;
+        .box:hover {
+     padding: 1.5rem 1.5rem;
     background-color: #2f5770;
     transition: all 0.5s ease-out;
-}   */
+}  
 
 }
 
