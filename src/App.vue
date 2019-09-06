@@ -284,6 +284,7 @@ h2 {
 
     .ipad {
         margin-top: 3rem;
+        margin-bottom: -0.5rem;
         padding: 3rem 1rem;
         background: white;
         border-radius: 2rem;

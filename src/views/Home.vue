@@ -161,6 +161,9 @@ i:hover {
     color: #f06744;
     transition: all 0.3s ease-out;
 }
+i{
+font-size: 2rem;
+}
 
 
 
