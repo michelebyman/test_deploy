@@ -6,60 +6,61 @@
         </h1>
         <h2 class="background-wrapper">Some things I want to share with you...</h2>
         <div class="grid-about">
-                <div class="wrapper-animation">
-                        <div class="background-circle">
-                          
-                </div>
+            <div class="wrapper-animation">
+                <div class="background-circle"></div>
                 <img src="../assets/images/portrait.jpg" alt />
-                </div>
-                
-          
+            </div>
 
             <div class="bio">
                 <h2 class="secondary-color">BIO</h2>
-                <p>My name is Michele Byman and I am studying to become a front-end developer in Växjö a small town in the south east of Sweden. I am probably not the typical programer out there, I have a background in sales and in the health field. I am a social guy with lots of interest in skateboarding, health and meditation beside my interest to be a good developer. I love solving problems so my brain gets to work intensely!</p>
-            </div>
-        
-            <div class="job job-1">
-                    <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                <h3>Student @ EC-Education</h3>
-                <h6>Front-End Developer</h6>
                 <p>
-                    Currently I am studying to become a front-end developer.
-                    <br />
+                    My name is Michele Byman and I recently graduated as a front-end developer at EC Education in Växjö a small town in the south east of Sweden.
+                    I am probably not the typical programer out there, I have a background in sales and in the health field.
+                    I am a social guy with lots of interest in skateboarding, health and meditation beside my interest to be a good developer.
+                    I love solving problems so my brain gets to work intensely!
                 </p>
-                <p>Classes I have taken:</p>
-                <ul>
-                    <li>APIs for Backend</li>
-                    <li>Advanced JavaScript with React</li>
-                    <li>Advanced JavaScript with Angular</li>
-                    <li>Basic JavaScript with jQuery</li>
-                    <li>Communication &amp; Agile Project Methods</li>
-                    <li>UX Design &amp; Graphic Imaging</li>
-                    <li>HTML5 &amp; CSS3 with SEO</li>
-                </ul>
+            </div>
+
+            <div class="job job-1">
+                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
+                    <h3>Student @ EC-Education</h3>
+                    <h6>Front-End Developer</h6>
+                    <p>
+                        Currently I am studying to become a front-end developer.
+                        <br />
+                    </p>
+                    <p>Classes I have taken:</p>
+                    <ul>
+                        <li>APIs for Backend</li>
+                        <li>Advanced JavaScript with React</li>
+                        <li>Advanced JavaScript with Angular</li>
+                        <li>Basic JavaScript with jQuery</li>
+                        <li>Communication &amp; Agile Project Methods</li>
+                        <li>UX Design &amp; Graphic Imaging</li>
+                        <li>HTML5 &amp; CSS3 with SEO</li>
+                    </ul>
                 </a>
             </div>
             <div class="job job-2">
-                    <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                <h3>Life Hälsokostbutik</h3>
-                <h6>Sales Representative</h6>
-                <p>As a sales representative at Life I sold (health product) and educated people in the health field.</p>
-                  </a>
+                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
+                    <h3>Life Hälsokostbutik</h3>
+                    <h6>Sales Representative</h6>
+                    <p>As a sales representative at Life I sold (health product) and educated people in the health field.</p>
+                </a>
             </div>
             <div class="job job-3">
-                    <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                <h3>Rawsome Experience</h3>
-                <h6>Owner</h6>
-                <p>
-                    Traveled the world educated people how to live a healthy lifestyle, wrote an
-                    <a
-                        class="eBook"
-                        href="https://drive.google.com/open?id=15mbbKbUjxWnxinD8kO_JIYTvcv6Gibg2"
-                        target="_blank"
-                    >e-book</a>
-                </p>
-                  </a>
+                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
+                    <h3>Rawsome Experience</h3>
+                    <h6>Owner</h6>
+                    <p>
+                        Traveled the world educated people how to live a healthy lifestyle, wrote an
+                        <a
+                            class="eBook"
+                            href="https://drive.google.com/open?id=15mbbKbUjxWnxinD8kO_JIYTvcv6Gibg2"
+                            target="_blank"
+                        >e-book</a>
+                    </p>
+                </a>
             </div>
         </div>
     </div>
@@ -67,46 +68,41 @@
 
 
 <script>
-export default {
-
-      
-};
+export default {};
 </script>
 
 <style scoped>
-
 .about {
     padding: 0 1.6rem 0 1.6rem;
 }
 .grid-about {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-     grid-template-areas:
-            "bioimage bioimage bioimage"
-            "bio bio bio"
-            "job1 job1 job1"
-            "job2 job2 job2"
-            "job3 job3 job3";
-        
+    grid-template-areas:
+        "bioimage bioimage bioimage"
+        "bio bio bio"
+        "job1 job1 job1"
+        "job2 job2 job2"
+        "job3 job3 job3";
+
     grid-gap: 1rem;
-        padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .wrapper-animation {
-position: relative;
-display: flex;
-        justify-content: center;
-        align-items: center;
-           margin-top: 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
 }
 
 .background-circle {
-        border-radius: 50%;
-        height: 8.3rem;
-        width: 8.3rem;
-        background: linear-gradient(90deg,  #f06744, #fff);
-        animation: rotate 4s steps(60, end) infinite;
-        
+    border-radius: 50%;
+    height: 8.3rem;
+    width: 8.3rem;
+    background: linear-gradient(90deg, #f06744, #fff);
+    animation: rotate 4s steps(60, end) infinite;
 }
 
 img {
@@ -114,8 +110,6 @@ img {
     height: 8rem;
     grid-area: bioimage;
     position: absolute;
-
-
 }
 
 .bio {
@@ -152,29 +146,23 @@ img {
 }
 
 .card-a {
-        color: white;
-        text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-
-
-
 
 @keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-
-
-@media screen and (min-width: 1024px){
-         .grid-about {
-       grid-template-columns: repeat(3, 1fr);
+@media screen and (min-width: 1024px) {
+    .grid-about {
+        grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
             "bioimage bio bio "
             "job3 job1 job1"
             "job2 job2 job2";
-}
-
+    }
 }
 </style>
