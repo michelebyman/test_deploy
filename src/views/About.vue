@@ -39,19 +39,19 @@
             </div>
             <div class="job job-2">
                 <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
+                    <h3>Go Brave</h3>
+                    <h6>Front-end developer</h6>
+                    <p>Worked with, Wordpress, Divi, Vue.js, Git, PHP, SCSS, CSS and JavaScript</p>
+                </a>
+            </div>
+            <div class="job job-3">
+                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
                     <h3>IST Group Växjö</h3>
                     <h6>Front-end developer</h6>
                     <p>
                         Worked with Vue.js, JavaScript, Vuetify, git, Bitbucket, Jira, and Java for the backend.
                         Have been working with migration of old Vue and Vuetify to the latest version and implemented new functionality and design.
                     </p>
-                </a>
-            </div>
-            <div class="job job-3">
-                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                    <h3>Go Brave</h3>
-                    <h6>Front-end developer</h6>
-                    <p>Worked with, Wordpress, Divi, Vue.js, Git, PHP, SCSS, CSS and JavaScript</p>
                 </a>
             </div>
         </div>
