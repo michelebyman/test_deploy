@@ -27,8 +27,6 @@
                     <h6>Front-End Developer</h6>
                     <p>Classes I have taken:</p>
                     <ul>
-                        <li>Internship at IST Group, worked with Vue.js, SCSS and Vuetify</li>
-                        <li>Internship at Meetod, worked with Vue.js, SCSS and Ruby on Rails</li>
                         <li>APIs for Backend</li>
                         <li>Advanced JavaScript with React</li>
                         <li>Advanced JavaScript with Angular</li>
@@ -41,23 +39,19 @@
             </div>
             <div class="job job-2">
                 <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                    <h3>Life Hälsokostbutik</h3>
-                    <h6>Sales Representative</h6>
-                    <p>As a sales representative at Life I sold (health product) and educated people in the health field.</p>
+                    <h3>IST Group Växjö</h3>
+                    <h6>Front-end developer</h6>
+                    <p>
+                        Worked with Vue.js, JavaScript, Vuetify, git, Bitbucket, Jira, and Java for the backend.
+                        Have been working with migration of old Vue and Vuetify to the latest version and implemented new functionality and design.
+                    </p>
                 </a>
             </div>
             <div class="job job-3">
                 <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                    <h3>Rawsome Experience</h3>
-                    <h6>Owner</h6>
-                    <p>
-                        Traveled the world educated people how to live a healthy lifestyle, wrote an
-                        <a
-                            class="eBook"
-                            href="https://drive.google.com/open?id=15mbbKbUjxWnxinD8kO_JIYTvcv6Gibg2"
-                            target="_blank"
-                        >e-book</a>
-                    </p>
+                    <h3>Go Brave</h3>
+                    <h6>Front-end developer</h6>
+                    <p>Worked with, Wordpress, Divi, Vue.js, Git, PHP, SCSS, CSS and JavaScript</p>
                 </a>
             </div>
         </div>
