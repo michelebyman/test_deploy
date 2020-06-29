@@ -15,7 +15,7 @@
                 <h2 class="secondary-color">BIO</h2>
                 <p>
                     My name is Michele Byman and I recently graduated as a front-end developer at EC Education in Växjö a small town in the south east of Sweden.
-                    I am probably not the typical programer out there, I have a background in sales and in the health field.
+                    I am probably not the typical programmer out there, I have a background in sales and in the health field.
                     I am a social guy with lots of interest in skateboarding, health and meditation beside my interest to be a good developer.
                     I love solving problems so my brain gets to work intensely!
                 </p>
@@ -25,12 +25,10 @@
                 <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
                     <h3>Student @ EC-Education</h3>
                     <h6>Front-End Developer</h6>
-                    <p>
-                        Currently I am studying to become a front-end developer.
-                        <br />
-                    </p>
                     <p>Classes I have taken:</p>
                     <ul>
+                        <li>Internship at IST Group, worked with Vue.js, SCSS and Vuetify</li>
+                        <li>Internship at Meetod, worked with Vue.js, SCSS and Ruby on Rails</li>
                         <li>APIs for Backend</li>
                         <li>Advanced JavaScript with React</li>
                         <li>Advanced JavaScript with Angular</li>
