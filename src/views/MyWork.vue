@@ -4,7 +4,7 @@
             My
             <span class="secondary-color">Work</span>
         </h1>
-        <p class="background-wrapper">Check out some of my projects... (under construction)</p>
+        <p class="background-wrapper">Check out some of my projects...</p>
 
         <div class="grid-projects">
             <div class="item">
@@ -12,26 +12,34 @@
                     <img src="../assets/projects/portfolio.png" alt />
                 </a>
                 <div class="icons">
-                    <a class="btn btn-dark" href="https://github.com/michelebyman/michelebyman.github.io" target="_blank">
-                        <i class="fab fa-github"> Github</i>
-                    </a>
-
                     <a
-                        class="btn btn-light"
-                        href="https://michelebyman.github.io"
+                        class="btn btn-dark"
+                        href="https://github.com/michelebyman/michelebyman.github.io"
                         target="_blank"
                     >
-                        <i class="far fa-eye"> Projects</i>
+                        <i class="fab fa-github">Github</i>
+                    </a>
+
+                    <a class="btn btn-light" href="https://michelebyman.github.io" target="_blank">
+                        <i class="far fa-eye">Projects</i>
                     </a>
                 </div>
             </div>
             <div class="item">
-                <a href="https://michelebyman.github.io/otherProjects/chestGame/" target="_blank" class="image-link">
+                <a
+                    href="https://michelebyman.github.io/otherProjects/chestGame/"
+                    target="_blank"
+                    class="image-link"
+                >
                     <img src="../assets/projects/chestGame.png" />
                 </a>
                 <div class="icons">
-                    <a class="btn btn-dark" href="https://github.com/michelebyman/michelebyman.github.io/tree/master/otherProjects/chestGame" target="_blank">
-                        <i class="fab fa-github"> Github</i>
+                    <a
+                        class="btn btn-dark"
+                        href="https://github.com/michelebyman/michelebyman.github.io/tree/master/otherProjects/chestGame"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github">Github</i>
                     </a>
 
                     <a
@@ -39,34 +47,47 @@
                         href="https://michelebyman.github.io/otherProjects/chestGame/"
                         target="_blank"
                     >
-                        <i class="far fa-eye"> Projects</i>
+                        <i class="far fa-eye">Projects</i>
                     </a>
                 </div>
             </div>
             <div class="item">
-                <a href="https://github.com/simontollstern/Brottskartan" target="_blank" class="image-link">
+                <a
+                    href="https://github.com/simontollstern/Brottskartan"
+                    target="_blank"
+                    class="image-link"
+                >
                     <img src="../assets/projects/brottskarta.png" alt />
                 </a>
                 <div class="icons">
-                    <a class="btn btn-dark" href="https://github.com/simontollstern/Brottskartan" target="_blank">
-                        <i class="fab fa-github"> Github</i>
+                    <a
+                        class="btn btn-dark"
+                        href="https://github.com/simontollstern/Brottskartan"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github">Github</i>
                     </a>
 
-                    <a
-                        class="btn btn-light disabled"
-                    >
-                        <i class="far fa-eye disabled"> Projects</i>
+                    <a class="btn btn-light disabled">
+                        <i class="far fa-eye disabled">Projects</i>
                     </a>
                 </div>
             </div>
             <div class="item">
-                <a  href="https://xd.adobe.com/view/43d8fe8e-86ac-47fb-5be0-4c9209e7b08c-35e9/"
-                        target="_blank" class="image-link">
+                <a
+                    href="https://xd.adobe.com/view/43d8fe8e-86ac-47fb-5be0-4c9209e7b08c-35e9/"
+                    target="_blank"
+                    class="image-link"
+                >
                     <img src="../assets/projects/allfones.png" alt />
                 </a>
                 <div class="icons">
-                    <a class="btn btn-dark disabled" href="https://michelebyman.github.io" target="_blank">
-                        <i class="fab fa-adobe disabled"> Adobe XD</i>
+                    <a
+                        class="btn btn-dark disabled"
+                        href="https://michelebyman.github.io"
+                        target="_blank"
+                    >
+                        <i class="fab fa-adobe disabled">Adobe XD</i>
                     </a>
 
                     <a
@@ -74,36 +95,34 @@
                         href="https://xd.adobe.com/view/43d8fe8e-86ac-47fb-5be0-4c9209e7b08c-35e9/"
                         target="_blank"
                     >
-                        <i class="far fa-eye"> Projects</i>
+                        <i class="far fa-eye">Projects</i>
                     </a>
                 </div>
             </div>
             <div class="item">
-                <a href class="image-link">
+                <div class="image-link">
                     <img src="../assets/projects/olausfastigheter.png" alt />
-                </a>
+                </div>
                 <div class="icons">
-                    <a class="btn btn-dark disabled" href="https://michelebyman.github.io" target="_blank">
-                        <i class="fab fa-adobe disabled"> Adobe XD</i>
+                    <a
+                        class="btn btn-dark disabled"
+                        href="https://michelebyman.github.io"
+                        target="_blank"
+                    >
+                        <i class="fab fa-adobe disabled">Adobe XD</i>
                     </a>
 
-                    <a
-                        class="btn btn-light disabled"
-                       
-                    >
-                        <i class="far fa-eye disabled"> Projects</i>
+                    <a class="btn btn-light disabled">
+                        <i class="far fa-eye disabled">Projects</i>
                     </a>
                 </div>
             </div>
         </div>
-       
     </div>
 </template>
 
 <script>
-export default {
-      
-};
+export default {};
 </script>
 
 <style scoped>
@@ -115,12 +134,12 @@ img {
     width: 100%;
     border: 3px solid #fff;
     box-sizing: border-box;
-     transition: all .3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 img:hover {
-        opacity: 0.7;
-        transition: all .3s ease-out;
+    opacity: 0.7;
+    transition: all 0.3s ease-out;
 }
 
 a {
@@ -131,11 +150,8 @@ a {
     display: grid;
     grid-gap: 1.2rem;
     grid-template-columns: repeat(1, 1fr);
-     padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
-
-
-
 
 .btn {
     display: block;
@@ -156,7 +172,7 @@ a {
     color: #fff;
 }
 .btn-dark:hover {
-    color: black;;
+    color: black;
 }
 
 .btn-light {
@@ -165,17 +181,15 @@ a {
 }
 
 a {
-        text-decoration: none;
+    text-decoration: none;
 }
-
 
 .disabled {
-    
-        pointer-events: none;
-  cursor: default;
+    pointer-events: none;
+    cursor: default;
 }
 .disabled:hover {
-        background: grey;
+    background: grey;
 }
 @media screen and (min-width: 1025px) {
     .grid-projects {
