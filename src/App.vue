@@ -60,7 +60,6 @@ export default {
     },
     mounted() {
         setInterval(this.getTime, 1000);
-      
     },
     methods: {
         lightOnOff() {
@@ -86,6 +85,9 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 #app {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -141,7 +143,7 @@ h2 {
         height: 100vh;
         width: 100vw;
         display: grid;
-        grid-template-rows: repeat(4,1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
     .wrapper-center-content {
         display: grid;
@@ -329,7 +331,6 @@ h2 {
         align-items: flex-end;
         padding-left: 2rem;
         grid-row-start: 3;
-
     }
     .right-nav {
         display: flex;
@@ -352,7 +353,7 @@ h2 {
         background-color: #74a4a4;
         display: flex;
         justify-content: center;
-        align-items:center;
+        align-items: center;
         grid-row-start: 2;
         grid-row-end: 5;
         min-height: 7rem;
