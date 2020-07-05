@@ -22,8 +22,12 @@
             </div>
 
             <div class="job job-1">
-                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                    <h3>Student @ EC-Education</h3>
+                <a
+                    class="card-a"
+                    href="https://www.ecutbildning.se/utbildningar/frontend-utvecklare/"
+                    target="_blank"
+                >
+                    <h3>Graduated @ EC Education in Växjö, Sweden</h3>
                     <h6>Front-End Developer</h6>
                     <p>Classes I have taken:</p>
                     <ul>
@@ -38,19 +42,20 @@
                 </a>
             </div>
             <div class="job job-2">
-                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                    <h3>Go Brave</h3>
-                    <h6>Front-end developer</h6>
-                    <p>Worked with, Wordpress, Divi, Vue.js, Git, PHP, SCSS, CSS and JavaScript</p>
+                <a class="card-a" href="https://gobrave.se/" target="_blank">
+                    <h3>Go Brave AB, Växjö, Sweden</h3>
+                    <h6>Front-end developer (internship)</h6>
+                    <p>GoBrave gave me the opportunity to work with Wordpress/Divi, Git, SCSS, CSS and JavaScript.</p>
                 </a>
             </div>
             <div class="job job-3">
-                <a class="card-a" href="https://www.linkedin.com/in/michelebyman" target="_blank">
-                    <h3>IST Group Växjö</h3>
-                    <h6>Front-end developer</h6>
+                <a class="card-a" href="https://www.ist.com/en" target="_blank">
+                    <h3>IST Group AB, Växjö, Sweden</h3>
+                    <h6>Front-end developer (internship)</h6>
                     <p>
-                        Worked with Vue.js, JavaScript, Vuetify, git, Bitbucket, Jira, and Java for the backend.
-                        Have been working with migration of old Vue and Vuetify to the latest version and implemented new functionality and design.
+                        At IST I worked with Vue.js, JavaScript, Vuetify, Git, Bitbucket, Jira.
+                        Worked with migration of Vue and Vuetify to the latest version and implemented new functionality
+                        and design for an inhouse application that helped them calculate budgets.
                     </p>
                 </a>
             </div>
@@ -63,7 +68,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style scoped lang="css">
 .about {
     padding: 0 1.6rem 0 1.6rem;
 }
@@ -93,7 +98,7 @@ export default {};
     border-radius: 50%;
     height: 8.3rem;
     width: 8.3rem;
-    background: linear-gradient(90deg, #f06744, #fff);
+    background: linear-gradient(90deg, #f06744, rgb(255, 255, 255));
     animation: rotate 4s steps(60, end) infinite;
 }
 

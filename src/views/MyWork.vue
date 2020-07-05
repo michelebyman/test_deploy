@@ -8,6 +8,20 @@
 
         <div class="grid-projects">
             <div class="item">
+                <a href="http://skaraton.com" target="_blank" class="image-link">
+                    <img src="../assets/projects/skaraton.jpg" alt />
+                </a>
+                <div class="icons">
+                    <a class="btn btn-dark" href="https://wordpress.com/" target="_blank">
+                        <i class="fab fa-wordpress"></i> Redesigned a webpage using Divi
+                    </a>
+
+                    <a class="btn btn-light" href="http://skaraton.com" target="_blank">
+                        <i class="far fa-eye"></i> View project
+                    </a>
+                </div>
+            </div>
+            <div class="item">
                 <a href="https://michelebyman.github.io" target="_blank" class="image-link">
                     <img src="../assets/projects/portfolio.png" alt />
                 </a>
@@ -17,11 +31,11 @@
                         href="https://github.com/michelebyman/michelebyman.github.io"
                         target="_blank"
                     >
-                        <i class="fab fa-github">Github</i>
+                        <i class="fab fa-github"></i> Github
                     </a>
 
                     <a class="btn btn-light" href="https://michelebyman.github.io" target="_blank">
-                        <i class="far fa-eye">Projects</i>
+                        <i class="far fa-eye"></i> View project
                     </a>
                 </div>
             </div>
@@ -39,7 +53,7 @@
                         href="https://github.com/michelebyman/michelebyman.github.io/tree/master/otherProjects/chestGame"
                         target="_blank"
                     >
-                        <i class="fab fa-github">Github</i>
+                        <i class="fab fa-github"></i> Github
                     </a>
 
                     <a
@@ -47,7 +61,7 @@
                         href="https://michelebyman.github.io/otherProjects/chestGame/"
                         target="_blank"
                     >
-                        <i class="far fa-eye">Projects</i>
+                        <i class="far fa-eye"></i> View project
                     </a>
                 </div>
             </div>
@@ -65,11 +79,11 @@
                         href="https://github.com/simontollstern/Brottskartan"
                         target="_blank"
                     >
-                        <i class="fab fa-github">Github</i>
+                        <i class="fab fa-github"></i> Github
                     </a>
 
                     <a class="btn btn-light disabled">
-                        <i class="far fa-eye disabled">Projects</i>
+                        <i class="far fa-eye disabled"></i> View project
                     </a>
                 </div>
             </div>
@@ -87,7 +101,7 @@
                         href="https://michelebyman.github.io"
                         target="_blank"
                     >
-                        <i class="fab fa-adobe disabled">Adobe XD</i>
+                        <i class="fab fa-adobe disabled"></i> Adobe XD
                     </a>
 
                     <a
@@ -95,7 +109,7 @@
                         href="https://xd.adobe.com/view/43d8fe8e-86ac-47fb-5be0-4c9209e7b08c-35e9/"
                         target="_blank"
                     >
-                        <i class="far fa-eye">Projects</i>
+                        <i class="far fa-eye"></i> View project
                     </a>
                 </div>
             </div>
@@ -109,11 +123,11 @@
                         href="https://michelebyman.github.io"
                         target="_blank"
                     >
-                        <i class="fab fa-adobe disabled">Adobe XD</i>
+                        <i class="fab fa-adobe disabled"></i> Adobe XD
                     </a>
 
                     <a class="btn btn-light disabled">
-                        <i class="far fa-eye disabled">Projects</i>
+                        <i class="far fa-eye disabled"></i> View project
                     </a>
                 </div>
             </div>
