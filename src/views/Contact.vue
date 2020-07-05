@@ -137,10 +137,5 @@ img {
         transition: all 0.5s ease-out;
     }
 }
-@media (max-width: 1025px) {
-    .phoneCardWrapper {
-        padding: 6px 0px 0px 0px;
-    }
-}
 </style>
 
