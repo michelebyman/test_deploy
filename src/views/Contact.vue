@@ -117,7 +117,7 @@ export default {
     color: white;
 }
 .phoneCardWrapper {
-    padding: 16px;
+    padding-top: 16px;
     max-height: 300px;
     display: flex;
 }
@@ -139,7 +139,7 @@ img {
 }
 @media (max-width: 1025px) {
     .phoneCardWrapper {
-        padding: 6px;
+        padding: 6px 0px 0px 0px;
     }
 }
 </style>
