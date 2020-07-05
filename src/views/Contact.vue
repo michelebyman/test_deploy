@@ -21,8 +21,8 @@
         </a>
         <div class="box-email">
             <span class="secondary-color">Adress: &nbsp;</span>
-            Välluddevägen 1, lgh 1002,
-            352 51 Växjö,
+            Upplandsgatan 11,
+            214 29 Malmö,
             Sweden
         </div>
     </div>
