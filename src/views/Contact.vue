@@ -38,7 +38,7 @@ export default {
     data() {
         return {
             url:
-                "https://deckofcardsapi.com/api/deck/new/shuffle/?cards=7H,6S,5H,8S,2D,5D,5C,AS,",
+                "https://deckofcardsapi.com/api/deck/new/?cards=7H,6S,5H,8S,2D,5D,5C,AS,",
             deck_id: null,
             cards: null,
             zero_cards: [
@@ -54,6 +54,7 @@ export default {
         };
     },
     mounted() {
+        //fetching 8 specific cards
         fetch(this.url)
             .then(data => {
                 return data.json();
