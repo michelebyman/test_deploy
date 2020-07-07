@@ -7,23 +7,35 @@
 
         <p class="background-wrapper">Reach out to me...</p>
 
-        <a class="contact" href="mailto:michelebyman@gmail.com">
+        <a class="link-Color-noDecoration" href="mailto:michelebyman@gmail.com">
             <div class="box clickable">
                 <span class="secondary-color">Email: &nbsp;</span>
                 <span>Click here to send me an email (michelebyman@gmail.com)</span>
             </div>
         </a>
-        <a class="contact" href="tel:0046-765-825051">
-            <div class="box clickable">
-                <span class="secondary-color">Phone: &nbsp;</span>
-                <span>Click to call me or type in the numbers below in your phone</span>
-                <div class="phoneCardWrapper">
-                    <div class="imageWrapper" v-for="card in cards" :key="card.id">
-                        <img :src="card.image" alt="cards" />
-                    </div>
+        <div class="box clickable flip-card">
+            <a class="link-Color-noDecoration" href="tel:0046-765-825051">
+                <div class>
+                    <span class="secondary-color">Phone: &nbsp;</span>
+                    <span>Click to call me or type in the numbers below in your phone, flip cards by clicking on them</span>
+                </div>
+            </a>
+
+            <div v-if="flipped" class="phoneCardWrapper">
+                <div class="imageWrapper" v-for="card in cards" :key="card.id">
+                    <img @click="flipped = !flipped" class="cards" :src="card.image" alt="cards" />
                 </div>
             </div>
-        </a>
+            <div v-else class="phoneCardWrapper">
+                <div
+                    class="imageWrapper flip-card-back"
+                    v-for="card in flippedCards"
+                    :key="card.id"
+                >
+                    <img @click="flipped = !flipped" class="cards" :src="card.image" alt="cards" />
+                </div>
+            </div>
+        </div>
         <div class="box-email">
             <span class="secondary-color">Adress: &nbsp;</span>
             Upplandsgatan 11,
@@ -41,6 +53,7 @@ export default {
                 "https://deckofcardsapi.com/api/deck/new/?cards=7H,6S,5H,8S,2D,5D,5C,AS,",
             deck_id: null,
             cards: null,
+            flipped: true,
             zero_cards: [
                 {
                     image: require("../assets/images/zero.png"),
@@ -50,24 +63,69 @@ export default {
                     image: require("../assets/images/zero.png"),
                     value: "0"
                 }
+            ],
+            flippedCards: [
+                {
+                    image: require("../assets/images/noll.jpg"),
+                    value: "0"
+                },
+                {
+                    image: require("../assets/images/5even.jpg"),
+                    value: "7"
+                },
+                {
+                    image: require("../assets/images/5ix.jpg"),
+                    value: "6"
+                },
+                {
+                    image: require("../assets/images/five.jpg"),
+                    value: "5"
+                },
+                {
+                    image: require("../assets/images/eight.jpg"),
+                    value: "8"
+                },
+                {
+                    image: require("../assets/images/two.jpg"),
+                    value: "2"
+                },
+                {
+                    image: require("../assets/images/five.jpg"),
+                    value: "5"
+                },
+                {
+                    image: require("../assets/images/noll.jpg"),
+                    value: "0"
+                },
+                {
+                    image: require("../assets/images/five.jpg"),
+                    value: "5"
+                },
+                {
+                    image: require("../assets/images/one.jpg"),
+                    value: "1"
+                }
             ]
         };
     },
     mounted() {
-        //fetching 8 specific cards
-        fetch(this.url)
-            .then(data => {
-                return data.json();
-            })
-            .then(res => {
-                this.deck_id = res.deck_id;
-                this.cardsFromApi();
-            })
-            .catch(err => {
-                console.error(err);
-            });
+        this.getEightCards();
     },
     methods: {
+        //fetching 8 specific cards
+        getEightCards() {
+            fetch(this.url)
+                .then(data => {
+                    return data.json();
+                })
+                .then(res => {
+                    this.deck_id = res.deck_id;
+                    this.cardsFromApi();
+                })
+                .catch(err => {
+                    console.error(err);
+                });
+        },
         cardsFromApi() {
             const url = `https://deckofcardsapi.com/api/deck/${this.deck_id}/draw/?count=8`;
             fetch(url)
@@ -113,7 +171,7 @@ export default {
     transition: all 0.5s ease-out;
 }
 
-.contact {
+.link-Color-noDecoration {
     text-decoration: none;
     color: white;
 }
@@ -129,6 +187,10 @@ export default {
 
 img {
     width: 100%;
+}
+
+.cards {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1025px) {
