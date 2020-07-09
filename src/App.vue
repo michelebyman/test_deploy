@@ -24,6 +24,10 @@
                             <i class="fas fa-battery-full"></i>
                         </p>
                     </div>
+                    <i
+                        class="fixed-back-button fas fa-chevron-circle-left"
+                        @click="pageBackOneRoute"
+                    ></i>
                     <vue-page-transition name="fade-in-up">
                         <router-view />
                     </vue-page-transition>
@@ -75,6 +79,9 @@ export default {
                 minute: "2-digit",
                 second: "2-digit"
             });
+        },
+        pageBackOneRoute() {
+            this.$router.go(-1);
         }
     }
 };
@@ -115,6 +122,13 @@ h2 {
 .background-wrapper {
     background-color: #57585a;
     padding-left: 0.4rem;
+}
+
+.fixed-back-button {
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    font-size: 2.5rem;
 }
 
 .info-bar {
@@ -357,6 +371,10 @@ h2 {
         grid-row-start: 2;
         grid-row-end: 5;
         min-height: 7rem;
+    }
+
+    .fixed-back-button {
+        display: none;
     }
 
     footer {
