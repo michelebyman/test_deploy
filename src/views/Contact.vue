@@ -27,11 +27,7 @@
                 </div>
             </div>
             <div v-else class="phoneCardWrapper">
-                <div
-                    class="imageWrapper flip-card-back"
-                    v-for="card in flippedCards"
-                    :key="card.id"
-                >
+                <div class="imageWrapper" v-for="card in flippedCards" :key="card.id">
                     <img @click="flipped = !flipped" class="cards" :src="card.image" alt="cards" />
                 </div>
             </div>
@@ -168,7 +164,7 @@ export default {
     padding: 1rem 1rem;
     margin: 1rem;
     width: calc(100% - 60px);
-    transition: all 0.5s ease-out;
+    transition: padding 0.5s ease-out;
 }
 
 .link-Color-noDecoration {
@@ -191,13 +187,27 @@ img {
 
 .cards {
     cursor: pointer;
+    animation: fadeIn 0.7s ease-out forwards;
+    animation-delay: 3s;
+    opacity: 0;
 }
 
 @media screen and (min-width: 1025px) {
     .box:hover {
         padding: 1.5rem 1.5rem;
         background-color: #2f5770;
-        transition: all 0.5s ease-out;
+        transition: padding 0.5s ease-out;
+    }
+}
+@media (max-width: 1025px) {
+    .cards {
+        animation-delay: 0.2s;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
     }
 }
 </style>

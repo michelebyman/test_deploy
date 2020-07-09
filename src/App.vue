@@ -165,7 +165,7 @@ h2 {
     .nav-lg:hover {
         color: #f06744;
         cursor: pointer;
-        transition: all 0.3s ease-out;
+        transition: color 0.3s ease-out;
     }
 
     a.router-link-exact-active {
