@@ -26,6 +26,7 @@
                     </div>
                     <i
                         class="fixed-back-button fas fa-chevron-circle-left"
+                        v-if="this.$route.path !== '/'"
                         @click="pageBackOneRoute"
                     ></i>
                     <vue-page-transition name="fade-in-up">
@@ -81,6 +82,7 @@ export default {
             });
         },
         pageBackOneRoute() {
+            console.log(this.$route.path == "/");
             this.$router.go(-1);
         }
     }
@@ -129,6 +131,7 @@ h2 {
     right: 1rem;
     bottom: 2rem;
     font-size: 2.5rem;
+    z-index: 1000000;
 }
 
 .info-bar {
