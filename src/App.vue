@@ -82,7 +82,6 @@ export default {
             });
         },
         pageBackOneRoute() {
-            console.log(this.$route.path == "/");
             this.$router.go(-1);
         }
     }
