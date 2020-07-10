@@ -205,7 +205,7 @@ a {
 .disabled:hover {
     background: grey;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1290px) {
     .grid-projects {
         grid-template-columns: repeat(2, 1fr);
     }

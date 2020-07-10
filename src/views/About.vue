@@ -28,7 +28,7 @@
                 >
                     <h3>Graduated @ EC Education in Växjö, Sweden</h3>
                     <h6>Front-End Developer</h6>
-                    <p>Classes I have taken with the highest grade in all of them:</p>
+                    <p>Classes I have taken with the highest grade in:</p>
                     <ul>
                         <li>APIs for Backend</li>
                         <li>Advanced JavaScript with React</li>
@@ -161,13 +161,13 @@ img {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1290px) {
     .grid-about {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
-            "bioimage bio bio "
-            "job3 job1 job1"
-            "job2 job2 job2";
+            "bioimage bio bio bio "
+            "job1 job1 job3 job3"
+            "job1 job1 job2 job2";
     }
 }
 </style>
