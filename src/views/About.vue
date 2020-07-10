@@ -49,7 +49,10 @@
             <div class="job job-2">
                 <a class="card-a" href="https://gobrave.se/" target="_blank">
                     <h3>Go Brave AB, Växjö, Sweden</h3>
-                    <h6>Front-end developer (internship)</h6>
+                    <h6>
+                        Front-end developer
+                        <br />(internship)
+                    </h6>
                     <p>GoBrave gave me the opportunity to work with Wordpress/Divi, Git, SCSS, CSS and JavaScript.</p>
                 </a>
             </div>

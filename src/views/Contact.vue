@@ -161,9 +161,8 @@ export default {
 .box,
 .box-email {
     border: 0.1rem solid white;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     margin: 1rem;
-    width: calc(100% - 60px);
     transition: padding 0.5s ease-out;
 }
 
@@ -188,13 +187,13 @@ img {
 .cards {
     cursor: pointer;
     animation: fadeIn 0.7s ease-out forwards;
-    animation-delay: 3s;
+    animation-delay: 0.5s;
     opacity: 0;
 }
 
 @media screen and (min-width: 1025px) {
     .box:hover {
-        padding: 1.5rem 1.5rem;
+        padding: 3.5rem 3.5rem;
         background-color: #2f5770;
         transition: padding 0.5s ease-out;
     }
