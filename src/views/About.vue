@@ -15,8 +15,7 @@
                 <h2 class="secondary-color">BIO</h2>
                 <p>
                     My name is Michele Byman and I recently graduated as a front-end developer at EC Education in Växjö a small town in the south east of Sweden.
-                    I am probably not the typical programmer out there, I have a background in sales and in the health field.
-                    I am a social guy with lots of interest in skateboarding, health and meditation beside my interest to be a good developer.
+                    I am probably not the typical programmer out there, I have a long background in sales and in the health field.
                     I love solving problems so my brain gets to work intensely!
                 </p>
             </div>
@@ -29,7 +28,7 @@
                 >
                     <h3>Graduated @ EC Education in Växjö, Sweden</h3>
                     <h6>Front-End Developer</h6>
-                    <p>Classes I have taken:</p>
+                    <p>Classes I have taken with the highest grade in all of them:</p>
                     <ul>
                         <li>APIs for Backend</li>
                         <li>Advanced JavaScript with React</li>
@@ -39,6 +38,12 @@
                         <li>UX Design &amp; Graphic Imaging</li>
                         <li>HTML5 &amp; CSS3 with SEO</li>
                     </ul>
+                    <p>
+                        At EC Education I developed skills to work agile according to Scrum and develop responsive web
+                        applications with semantic HTML, CSS, Bootstrap, and JavaScript frameworks. Now I understand the
+                        importance of UX-design. I know how to create a Backend using Node.js and MongoDB and fetching
+                        data and displaying it on the frontend.
+                    </p>
                 </a>
             </div>
             <div class="job job-2">
@@ -125,7 +130,7 @@ img {
 
 .job {
     background: #6b6b6b;
-    padding: 0.5rem;
+    padding: 2.5rem;
     border-right: #f06744 5px solid;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-out;

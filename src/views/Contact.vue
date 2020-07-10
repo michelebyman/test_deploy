@@ -153,7 +153,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped >
 .contact-wrapper {
     padding: 0 1.6rem 0 1.6rem;
     padding-bottom: 2rem;
