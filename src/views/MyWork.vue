@@ -8,16 +8,21 @@
 
         <div class="grid-projects">
             <div class="item">
-                <div class="image-link">
+                <a
+                    href="https://github.com/michelebyman/sukha"
+                    target="_blank"
+                    class="image-link"
+                >
                     <img src="../assets/projects/sukha.png" alt />
-                </div>
+                </a>
                 <div class="icons">
                     <a
                         class="btn btn-dark"
                         href="https://github.com/michelebyman/sukha"
                         target="_blank"
                     >
-                        <i class="fab fa-github"></i> Github
+                        <i class="fab fa-github"></i> Swift personal development
+                        app
                     </a>
 
                     <a class="btn btn-light disabled">
