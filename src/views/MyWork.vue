@@ -13,11 +13,11 @@
                 </div>
                 <div class="icons">
                     <a
-                        class="btn btn-dark disabled"
+                        class="btn btn-dark"
                         href="https://github.com/michelebyman/sukha"
                         target="_blank"
                     >
-                        <i class="fab fa-github disabled"></i> Github
+                        <i class="fab fa-github"></i> Github
                     </a>
 
                     <a class="btn btn-light disabled">
