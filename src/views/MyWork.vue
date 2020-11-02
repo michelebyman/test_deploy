@@ -14,7 +14,7 @@
                 <div class="icons">
                     <a
                         class="btn btn-dark disabled"
-                        href="https://michelebyman.github.io"
+                        href="https://github.com/michelebyman/sukha"
                         target="_blank"
                     >
                         <i class="fab fa-github disabled"></i> Github
