@@ -4,7 +4,9 @@
             About
             <span class="secondary-color">Me</span>
         </h1>
-        <h2 class="background-wrapper">Some things I want to share with you...</h2>
+        <h2 class="background-wrapper">
+            Some things I want to share with you...
+        </h2>
         <div class="grid-about">
             <div class="wrapper-animation">
                 <div class="background-circle"></div>
@@ -14,9 +16,13 @@
             <div class="bio">
                 <h2 class="secondary-color">BIO</h2>
                 <p>
-                    My name is Michele Byman and I recently graduated as a front-end developer at EC Education in Växjö a small town in the south east of Sweden.
-                    I am probably not the typical programmer out there, I have a long background in sales and in the health field.
-                    I love solving problems so my brain gets to work intensely!
+                    My name is Michele Byman and I recently graduated (June
+                    2020) as a front-end developer at EC Education in Växjö. Due
+                    to Covid-19 I started a new education as a iOS and Andriod
+                    developer in Malmö. I am probably not the typical programmer
+                    out there, I have a long background in sales and in the
+                    health field. I love solving problems so my brain gets to
+                    work intensely!
                 </p>
             </div>
 
@@ -39,10 +45,13 @@
                         <li>HTML5 &amp; CSS3 with SEO</li>
                     </ul>
                     <p>
-                        At EC Education I developed skills to work agile according to Scrum and develop responsive web
-                        applications with semantic HTML, CSS, Bootstrap, and JavaScript frameworks. Now I understand the
-                        importance of UX-design. I know how to create a Backend using Node.js and MongoDB and fetching
-                        data and displaying it on the frontend.
+                        At EC Education I developed skills to work agile
+                        according to Scrum and develop responsive web
+                        applications with semantic HTML, CSS, Bootstrap, and
+                        JavaScript frameworks. Now I understand the importance
+                        of UX-design. I know how to create a Backend using
+                        Node.js and MongoDB and fetching data and displaying it
+                        on the frontend.
                     </p>
                 </a>
             </div>
@@ -53,7 +62,10 @@
                         Front-end developer
                         <br />(internship)
                     </h6>
-                    <p>GoBrave gave me the opportunity to work with Wordpress/Divi, Git, SCSS, CSS and JavaScript.</p>
+                    <p>
+                        GoBrave gave me the opportunity to work with
+                        Wordpress/Divi, Git, SCSS, CSS and JavaScript.
+                    </p>
                 </a>
             </div>
             <div class="job job-3">
@@ -61,9 +73,11 @@
                     <h3>IST Group AB, Växjö, Sweden</h3>
                     <h6>Front-end developer (internship)</h6>
                     <p>
-                        At IST I worked with Vue.js, JavaScript, Vuetify, Git, Bitbucket, Jira.
-                        Worked with migration of Vue and Vuetify to the latest version and implemented new functionality
-                        and design for an inhouse application that helped them calculate budgets.
+                        At IST I worked with Vue.js, JavaScript, Vuetify, Git,
+                        Bitbucket, Jira. Worked with migration of Vue and
+                        Vuetify to the latest version and implemented new
+                        functionality and design for an inhouse application that
+                        helped them calculate budgets.
                     </p>
                 </a>
             </div>

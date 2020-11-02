@@ -8,6 +8,24 @@
 
         <div class="grid-projects">
             <div class="item">
+                <div class="image-link">
+                    <img src="../assets/projects/sukha.png" alt />
+                </div>
+                <div class="icons">
+                    <a
+                        class="btn btn-dark disabled"
+                        href="https://michelebyman.github.io"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github disabled"></i> Github
+                    </a>
+
+                    <a class="btn btn-light disabled">
+                        <i class="far fa-eye disabled"></i> View project
+                    </a>
+                </div>
+            </div>
+            <div class="item">
                 <a
                     href="http://skaraton.com"
                     target="_blank"
@@ -145,24 +163,6 @@
                         target="_blank"
                     >
                         <i class="fab fa-adobe disabled"></i> Adobe XD
-                    </a>
-
-                    <a class="btn btn-light disabled">
-                        <i class="far fa-eye disabled"></i> View project
-                    </a>
-                </div>
-            </div>
-            <div class="item">
-                <div class="image-link">
-                    <img src="../assets/projects/sukha.png" alt />
-                </div>
-                <div class="icons">
-                    <a
-                        class="btn btn-dark disabled"
-                        href="https://michelebyman.github.io"
-                        target="_blank"
-                    >
-                        <i class="fab fa-github disabled"></i> Github
                     </a>
 
                     <a class="btn btn-light disabled">
