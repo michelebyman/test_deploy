@@ -6,16 +6,24 @@
         </h1>
 
         <p>
-            På Sukha, tillgänglig från https://michelebyman.netlify.app/sukha,
-            en av våra viktigaste prioriteringar är våra besökares integritet.
-            Detta Sekretesspolicy innehåller information som finns samlas in och
-            spelas in av Sukha och hur vi använder det.
+            På Sukha, tillgänglig från
+            <a
+                class="policy-links"
+                href="https://michelebyman.netlify.app/sukha"
+                >https://michelebyman.netlify.app/sukha</a
+            >, en av våra viktigaste prioriteringar är våra besökares
+            integritet. Detta Sekretesspolicy innehåller information som finns
+            samlas in och spelas in av Sukha och hur vi använder det.
         </p>
 
         <p>
             Om du har ytterligare frågor eller behöver mer information om vår
             integritetspolicy, tveka inte att kontakta oss
-            https://michelebyman.netlify.app/contact.
+            <a
+                class="policy-links"
+                href="https://michelebyman.netlify.app/contact"
+                >https://michelebyman.netlify.app/contact</a
+            >.
         </p>
 
         <p>
@@ -147,5 +155,8 @@
 <style scoped>
 .policy-wrapper {
     padding: 2rem;
+}
+.policy-links {
+    color: yellow;
 }
 </style>
