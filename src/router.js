@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Contact from './views/Contact'
 import MyWork from './views/MyWork'
 import About from './views/About'
+import Policy from './views/PrivacyPolicy.vue'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: About
+    },
+    {
+      path: '/sukha',
+      name: 'sukha',
+      component: Policy
     }
   ]
 })

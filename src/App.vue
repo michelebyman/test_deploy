@@ -7,7 +7,9 @@
                 </div>
                 <div class="nav-mywork">
                     <div class="text-wrapper">
-                        <router-link class="nav-lg" to="/mywork">My Work</router-link>
+                        <router-link class="nav-lg" to="/mywork"
+                            >My Work</router-link
+                        >
                     </div>
                 </div>
             </div>
@@ -25,6 +27,7 @@
                         </p>
                     </div>
                     <i
+                        id="back-button"
                         class="fixed-back-button fas fa-chevron-circle-left"
                         v-if="this.$route.path !== '/'"
                         @click="pageBackOneRoute"
@@ -44,7 +47,9 @@
                     <div class="cover"></div>
                 </div>
                 <div class="nav-contact">
-                    <router-link class="nav-lg" to="/contact">Contact</router-link>
+                    <router-link class="nav-lg" to="/contact"
+                        >Contact</router-link
+                    >
                 </div>
             </div>
         </div>
@@ -60,7 +65,7 @@ export default {
     data() {
         return {
             time: "",
-            homeScreen: false
+            homeScreen: false,
         };
     },
     mounted() {
@@ -78,13 +83,13 @@ export default {
             this.time = new Date().toLocaleTimeString([], {
                 hour: "2-digit",
                 minute: "2-digit",
-                second: "2-digit"
+                second: "2-digit",
             });
         },
         pageBackOneRoute() {
             this.$router.go(-1);
-        }
-    }
+        },
+    },
 };
 </script>
 
@@ -375,7 +380,7 @@ h2 {
         min-height: 7rem;
     }
 
-    .fixed-back-button {
+    #back-button {
         display: none;
     }
 
