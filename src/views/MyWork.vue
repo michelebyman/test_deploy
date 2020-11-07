@@ -25,7 +25,11 @@
                         app
                     </a>
 
-                    <a class="btn btn-light disabled">
+                    <a
+                        class="btn btn-light"
+                        href="https://apps.apple.com/se/app/sukhadukkha/id1538439267?l=en"
+                        target="_blank"
+                    >
                         <i class="far fa-eye disabled"></i> View project
                     </a>
                 </div>

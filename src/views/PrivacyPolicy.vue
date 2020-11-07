@@ -159,8 +159,9 @@
                 href="https://michelebyman.netlify.app/sukha"
                 >https://michelebyman.netlify.app/sukha</a
             >, en av våra viktigaste prioriteringar är våra besökares
-            integritet. Detta Sekretesspolicy innehåller information som finns
-            samlas in och spelas in av Sukha och hur vi använder det.
+            integritet. Sekretesspolicy innehåller information om hur vi samlar
+            in data av användare av Sukha appen eller om vi blir kontaktade, och
+            hur vi använder den datan.
         </p>
 
         <p>
@@ -175,14 +176,13 @@
 
         <p>
             Denna sekretesspolicy gäller endast våra onlineaktiviteter och är
-            giltigt för besökare till vår ansökan med avseende på information
-            som de delade och / eller samlar in i Sukha.
+            giltigt för besökare till vår applikation (Sukha).
         </p>
 
         <h2>Samtycke</h2>
 
         <p>
-            Genom att använda vår ansökan godkänner du härmed vår
+            Genom att använda vår applikation godkänner du härmed vår
             integritetspolicy och godkänner dess villkor.
         </p>
 
@@ -194,33 +194,36 @@
             dig när vi ber dig att tillhandahålla din personliga information.
         </p>
         <p>
-            Om du kontaktar oss direkt kan vi få ytterligare information om dig
+            Om du kontaktar oss direkt kan vi får ytterligare information om dig
             som ditt namn, e-postadress, telefonnummer, innehållet i meddelandet
-            och / eller bilagor som du kan skicka till oss och eventuella annan
+            och / eller bilagor som du kan skicka till oss och eventuellt annan
             information du kan välja att lämna.
         </p>
         <p>
-            Du behöver inte registrera dig för ett konto, vi ber inte om ditt
-            kontaktinformation, såsom namn, företagsnamn, adress, e-post adress
-            och telefonnummer. Därför samlar vi inte in några uppgifter från dig
-            genom att använda vår applikation.
+            Du behöver inte registrera dig för ett konto när du använder Sukha,
+            vi ber inte om din kontaktinformation, såsom namn, företagsnamn,
+            adress, e-postadress och telefonnummer. Därför samlar vi inte in
+            några uppgifter från dig genom att använda vår applikation, endast
+            om du kontaktar oss på telefon eller via e-post.
         </p>
 
         <h2>Hur vi använder din information</h2>
 
         <p>
             Vi använder informationen vi samlar in (e-post eller telefonsamtal)
-            i olika sätt, inklusive att:
+            på olika sätt, inklusive att:
         </p>
 
         <ul>
             <li>Tillhandahålla, driva och underhålla vår applikation</li>
             <li>Förbättra, anpassa och utöka vår applikation</li>
-            <li>Utveckla nya produkter, tjänster, funktioner och funktioner</li>
+            <li>
+                Utveckla nya produkter, tjänster, funktioner och funktionalitet
+            </li>
             <li>
                 Kommunicera med dig via e-post eller telefon, antingen direkt,
                 inklusive för kundtjänst, för att ge dig uppdateringar och annan
-                information som rör ansökan.
+                information som rör Sukha applikationen.
             </li>
             <li>Skicka e-postmeddelanden till dig</li>
             <li>Hitta och förhindra bedrägerier</li>
