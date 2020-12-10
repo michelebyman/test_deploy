@@ -194,6 +194,8 @@ export default {};
 
 img {
     width: 100%;
+    max-height: 400px;
+    object-fit: cover;
     border: 3px solid #fff;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
