@@ -24,7 +24,7 @@
                     :)
                 </span>
                 <a class="link-Color-noDecoration" href="tel:0046-765-825051"
-                    >Click here if you want to call me directly</a
+                    >Call me directly ☎️</a
                 >
             </div>
 
