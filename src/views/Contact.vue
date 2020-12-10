@@ -23,6 +23,9 @@
                     >Flip cards by clicking on them if can't se my phone number
                     :)
                 </span>
+                <a class="link-Color-noDecoration" href="tel:0046-765-825051"
+                    >Click here if you want to call me directly</a
+                >
             </div>
 
             <div v-if="flipped" class="phoneCardWrapper">
@@ -48,9 +51,6 @@
                         alt="cards"
                     />
                 </div>
-                <a class="link-Color-noDecoration" href="tel:0046-765-825051"
-                    >Click here if you want to call me directly</a
-                >
             </div>
         </div>
         <div class="box-email">
