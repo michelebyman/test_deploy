@@ -17,12 +17,11 @@
                 <h2 class="secondary-color">BIO</h2>
                 <p>
                     My name is Michele Byman and I recently graduated (June
-                    2020) as a front-end developer at EC Education in Växjö. Due
-                    to Covid-19 I started a new education as a iOS and Andriod
-                    developer in Malmö. I am probably not the typical programmer
-                    out there, I have a long background in sales and in the
-                    health field. I love solving problems so my brain gets to
-                    work intensely!
+                    2020) as a front-end developer at EC Education in Växjö. Now
+                    I am lerarning iOS and Andriod development. I am probably
+                    not the typical programmer out there, I have a long
+                    background in sales and in the health field. I love solving
+                    problems so my brain gets to work intensely!
                 </p>
             </div>
 
