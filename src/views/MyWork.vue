@@ -259,5 +259,8 @@ a {
     .grid-projects {
         grid-template-columns: repeat(2, 1fr);
     }
+    img {
+        max-height: 125px;
+    }
 }
 </style>
