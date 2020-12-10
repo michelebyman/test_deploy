@@ -17,15 +17,13 @@
             </div>
         </a>
         <div class="box clickable flip-card">
-            <a class="link-Color-noDecoration" href="tel:0046-765-825051">
-                <div class>
-                    <span class="secondary-color">Phone: &nbsp;</span>
-                    <span
-                        >Click to call me or type in the numbers below in your
-                        phone, flip cards by clicking on them</span
-                    >
-                </div>
-            </a>
+            <div class>
+                <span class="secondary-color">Phone: &nbsp;</span>
+                <span
+                    >Flip cards by clicking on them if can't se my phone number
+                    :)
+                </span>
+            </div>
 
             <div v-if="flipped" class="phoneCardWrapper">
                 <div class="imageWrapper" v-for="card in cards" :key="card.id">
@@ -50,6 +48,9 @@
                         alt="cards"
                     />
                 </div>
+                <a class="link-Color-noDecoration" href="tel:0046-765-825051"
+                    >Click here if you want to call me directly</a
+                >
             </div>
         </div>
         <div class="box-email">
