@@ -199,7 +199,7 @@ img {
     border: 3px solid #fff;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
-    object-fit: top;
+    object-position: top;
 }
 
 img:hover {
