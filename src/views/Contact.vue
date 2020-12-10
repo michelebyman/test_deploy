@@ -20,7 +20,7 @@
             <div class>
                 <span class="secondary-color">Phone: &nbsp;</span>
                 <span
-                    >Flip cards by clicking on them if can't se my phone number
+                    >Flip cards by clicking on them if can't see my phone number
                     :)
                 </span>
                 <a class="link-Color-noDecoration" href="tel:0046-765-825051"
