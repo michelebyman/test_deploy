@@ -5,6 +5,7 @@ import Contact from './views/Contact'
 import MyWork from './views/MyWork'
 import About from './views/About'
 import Policy from './views/PrivacyPolicy.vue'
+import PropertyManager from './views/PrivacyPolicyContactPropertymanager.Vue'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
       path: '/sukha',
       name: 'sukha',
       component: Policy
+    },
+    {
+      path: '/propertymanager',
+      name: 'propertymananger',
+      component: PropertyManager
     }
   ]
 })
