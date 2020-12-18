@@ -303,3 +303,12 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.policy-wrapper {
+    padding: 2rem;
+}
+.policy-links {
+    color: yellow;
+}
+</style>
