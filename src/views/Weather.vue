@@ -10,10 +10,10 @@
                 type="text"
             />
 
-            <button class="btn">Get Temprature</button>
+            <button class="btn">Get Weather</button>
         </form>
         <p v-if="error" class="error-message">
-            ❗Please try different typing letters it might help
+            ❗Please try different typing letters, it might help
         </p>
 
         <div v-if="previousSearches.length">
@@ -32,18 +32,26 @@
             <h2>Current temperature in {{ locationName }} <br /></h2>
             <span
                 class="icon"
-                v-if="currentTemperature <= 15 && currentTemperature != ''"
+                v-if="
+                    currentWeather.temperature <= 15 &&
+                    currentWeather.temperature != ''
+                "
             >
                 🥶
             </span>
             <span
                 class="icon"
-                v-if="currentTemperature >= 16 && currentTemperature <= 25"
+                v-if="
+                    currentWeather.temperature >= 16 &&
+                    currentWeather.temperature <= 25
+                "
             >
                 🧘‍♂️
             </span>
-            <span class="icon" v-if="currentTemperature >= 26"> 🥵 </span>
-            <p v-if="currentTemperature != ''">
+            <span class="icon" v-if="currentWeather.temperature >= 26">
+                🥵
+            </span>
+            <p v-if="currentWeather.temperature != ''">
                 {{ currentWeather.temperature }}℃ ,
                 {{ currentWeather.weather_descriptions[0] }} and feels like
                 {{ currentWeather.feelslike }}
@@ -61,7 +69,6 @@ export default {
         return {
             query: "",
             locationName: "",
-            currentTemperature: "",
             previousSearches: [],
             queryIsEmpty: true,
             currentWeather: [],
@@ -89,26 +96,33 @@ export default {
 
             try {
                 this.isLoading = true;
+
                 const response = await fetch(
                     `http://api.weatherstack.com/current?access_key=${process.env.VUE_APP_WEATHER_API}&query=${this.query}`
                 );
+
                 const apiResponse = await response.json();
-                this.previousSearches.push(apiResponse.location.name);
-                this.currentTemperature = apiResponse.current.temperature;
-                this.locationName = apiResponse.location.name;
+
                 this.query = "";
+                this.previousSearches.push(apiResponse.location.name);
+                this.locationName = apiResponse.location.name;
                 this.currentWeather = apiResponse.current;
+
                 this.saveCitiesToLocalStorage();
+
                 this.error = false;
                 this.isLoading = false;
             } catch (error) {
                 console.error(error);
                 this.error = true;
+                this.isLoading = false;
             }
         },
         saveCitiesToLocalStorage() {
             const nextLocalStorage = [...new Set(this.previousSearches)];
+
             this.previousSearches = nextLocalStorage.slice(-3);
+
             localStorage.setItem(
                 "cities",
                 JSON.stringify(this.previousSearches)
