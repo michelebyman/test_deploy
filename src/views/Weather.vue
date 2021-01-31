@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper-column">
+    <div class="weather-wrapper">
         <p>
             Current temperature in {{ locationName }} is
             {{ currentTemperature }}℃
@@ -37,4 +37,10 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.weather-wrapper {
+    padding: 2rem;
+}
+</style>
 
