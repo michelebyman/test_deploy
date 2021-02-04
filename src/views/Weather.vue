@@ -70,7 +70,6 @@ export default {
             query: "",
             locationName: "",
             previousSearches: [],
-            queryIsEmpty: true,
             currentWeather: [],
             error: false,
             isLoading: false,
@@ -102,7 +101,7 @@ export default {
                 );
 
                 const apiResponse = await response.json();
-
+                console.log(apiResponse);
                 this.query = "";
                 this.previousSearches.push(apiResponse.location.name);
                 this.locationName = apiResponse.location.name;

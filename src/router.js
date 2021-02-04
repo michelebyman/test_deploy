@@ -7,6 +7,7 @@ import About from './views/About'
 import Policy from './views/PrivacyPolicy.vue'
 import PropertyManager from './views/PPPP.vue'
 import Weather from './views/Weather.vue'
+import Multiturbo from './views/Multiturbo.vue'
 
 Vue.use(Router)
 
@@ -48,6 +49,11 @@ export default new Router({
       path: '/weather',
       name: 'weather',
       component: Weather
+    },
+    {
+      path: '/multiturbo',
+      name: 'multiturbo',
+      component: Multiturbo
     }
   ]
 })
