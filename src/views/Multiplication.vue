@@ -1,15 +1,15 @@
 <template>
     <div class="policy-wrapper">
-        <h1>Privacy Policy for Multiturbo</h1>
+        <h1>Privacy Policy for multiplication</h1>
         <p>
             At , accessible from
             <a
                 class="policy-links"
-                href="https://michelebyman.netlify.app/multiturbo"
-                >https://michelebyman.netlify.app/multiturbo</a
+                href="https://michelebyman.netlify.app/multiplication"
+                >https://michelebyman.netlify.app/multiplication</a
             >, one of our main priorities is the privacy of our visitors. This
             Privacy Policy document contains types of information that is
-            collected and recorded by Multiturbo and how we use it.
+            collected and recorded by multiplication and how we use it.
         </p>
 
         <p>
@@ -25,7 +25,7 @@
         <p>
             This Privacy Policy applies only to our online activities and is
             valid for visitors to our application with regards to the
-            information that they shared and/or collect in Multiturbo.
+            information that they shared and/or collect in multiplication.
         </p>
 
         <h2>Consent</h2>
@@ -78,8 +78,8 @@
         <h2>Log Files</h2>
 
         <p>
-            Multiturbo follows a standard procedure of using log files. These
-            files log visitors when they visit websites/applications. All
+            multiplication follows a standard procedure of using log files.
+            These files log visitors when they visit websites/applications. All
             hosting companies do this and a part of hosting services' analytics.
             The information collected by log files include internet protocol
             (IP) addresses, browser type, Internet Service Provider (ISP), date
@@ -138,7 +138,7 @@
         </p>
 
         <p>
-            Multiturbo does not knowingly collect any Personal Identifiable
+            multiplication does not knowingly collect any Personal Identifiable
             Information from children of any age. If you think that your child
             provided this kind of information on our website, we strongly
             encourage you to contact us immediately and we will do our best
@@ -148,19 +148,19 @@
         </p>
 
         <h1>
-            Användaravtal för Multiturbo, applikationen som får dig och dina
+            Användaravtal för multiplication, applikationen som får dig och dina
             vänner att utvecklas.
         </h1>
 
         <p>
-            På Multiturbo, tillgänglig från
+            På multiplication, tillgänglig från
             <a
                 class="policy-links"
-                href="https://michelebyman.netlify.app/Multiturbo"
-                >https://michelebyman.netlify.app/Multiturbo</a
+                href="https://michelebyman.netlify.app/multiplication"
+                >https://michelebyman.netlify.app/multiplication</a
             >, en av våra viktigaste prioriteringar är våra besökares
             integritet. Sekretesspolicy innehåller information om hur vi samlar
-            in data av användare av Multiturbo appen eller om vi blir
+            in data av användare av multiplication appen eller om vi blir
             kontaktade, och hur vi använder den datan.
         </p>
 
@@ -176,7 +176,7 @@
 
         <p>
             Denna sekretesspolicy gäller endast våra onlineaktiviteter och är
-            giltigt för besökare till vår applikation (Multiturbo).
+            giltigt för besökare till vår applikation (multiplication).
         </p>
 
         <h2>Samtycke</h2>
@@ -201,7 +201,7 @@
         </p>
         <p>
             Du behöver inte registrera dig för ett konto när du använder
-            Multiturbo, vi ber inte om din kontaktinformation, såsom namn,
+            multiplication, vi ber inte om din kontaktinformation, såsom namn,
             företagsnamn, adress, e-postadress och telefonnummer. Därför samlar
             vi inte in några uppgifter från dig genom att använda vår
             applikation, endast om du kontaktar oss på telefon eller via e-post.
@@ -223,7 +223,7 @@
             <li>
                 Kommunicera med dig via e-post eller telefon, antingen direkt,
                 inklusive för kundtjänst, för att ge dig uppdateringar och annan
-                information som rör Multiturbo applikationen.
+                information som rör multiplication applikationen.
             </li>
             <li>Skicka e-postmeddelanden till dig</li>
             <li>Hitta och förhindra bedrägerier</li>
@@ -232,8 +232,8 @@
         <h2>Loggfiler</h2>
 
         <p>
-            Multiturbo följer en standardprocedur för användning av loggfiler.
-            Dessa filer logga besökare när de besöker webbplatser /
+            multiplication följer en standardprocedur för användning av
+            loggfiler. Dessa filer logga besökare när de besöker webbplatser /
             applikationer. Alla värdar företag gör detta och en del av
             värdtjänstens analys. De information som samlas in av loggfiler
             inkluderar internetprotokoll (IP) adresser, webbläsartyp,
@@ -293,7 +293,7 @@
         </p>
 
         <p>
-            Multiturbo samlar inte medvetet personligt identifierbart
+            multiplication samlar inte medvetet personligt identifierbart
             Information från barn i alla åldrar. Om du tror att ditt barn
             tillhandahållit denna typ av information på vår webbplats, vi starkt
             uppmuntra dig att kontakta oss omedelbart så gör vi vårt bästa
