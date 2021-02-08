@@ -7,7 +7,7 @@ import About from './views/About'
 import Policy from './views/PrivacyPolicy.vue'
 import PropertyManager from './views/PPPP.vue'
 import Weather from './views/Weather.vue'
-import Multiplication from './views/Multiplication.vue.vue'
+import Multiplication from './views/Multiplication.vue'
 
 Vue.use(Router)
 
