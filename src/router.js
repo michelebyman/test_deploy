@@ -4,11 +4,11 @@ import Home from './views/Home.vue'
 import Contact from './views/Contact'
 import MyWork from './views/MyWork'
 import About from './views/About'
-import Policy from './views/PrivacyPolicy.vue'
-import PropertyManager from './views/PPPP.vue'
+import Policy from './views/policies/PrivacyPolicy.vue'
+import PropertyManager from './views/policies/PPPP.vue'
 import Weather from './views/Weather.vue'
-import Multiplication from './views/Multiplication.vue'
-import MultiTurbo from './views/MultiTurbo.vue'
+import Multiplication from './views/policies/Multiplication.vue'
+import MultiTurbo from './views/policies/MultiTurbo.vue'
 
 Vue.use(Router)
 
