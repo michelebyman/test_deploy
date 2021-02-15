@@ -8,6 +8,7 @@ import Policy from './views/PrivacyPolicy.vue'
 import PropertyManager from './views/PPPP.vue'
 import Weather from './views/Weather.vue'
 import Multiplication from './views/Multiplication.vue'
+import MultiTurbo from './views/MultiTurbo.vue'
 
 Vue.use(Router)
 
@@ -54,6 +55,11 @@ export default new Router({
       path: '/multiplication',
       name: 'multiplication',
       component: Multiplication
+    },
+    {
+      path: '/multiturbo',
+      name: 'multiturbo',
+      component: MultiTurbo
     }
   ]
 })
