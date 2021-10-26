@@ -157,7 +157,7 @@
                         href="https://apps.apple.com/gb/app/sukhadukkha/id1538439267"
                         target="_blank"
                     >
-                        <i class="far fa-eye disabled"></i> View project
+                        <i class="far fa-eye "></i> View project
                     </a>
                 </div>
             </div>
@@ -210,15 +210,15 @@
                 </div>
                 <div class="icons">
                     <a
-                        class="btn btn-dark disabled"
+                        class="btn btn-dark"
                         href="https://github.com/michelebyman/multiturbo"
                         target="_blank"
                     >
-                        <i class="fab fa-adobe disabled"></i> Multiturbo
+                        <i class="fab fa-adobe"></i> Multiturbo
                     </a>
 
-                    <a class="btn btn-light disabled">
-                        <i class="far fa-eye disabled"></i> View project
+                    <a class="btn btn-light">
+                        <i class="far fa-eye"></i> View project
                     </a>
                 </div>
             </div>
