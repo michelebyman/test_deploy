@@ -154,7 +154,7 @@
 
                     <a
                         class="btn btn-light"
-                        href="https://apps.apple.com/se/app/sukhadukkha/id1538439267?l=en"
+                        href="https://apps.apple.com/gb/app/sukhadukkha/id1538439267"
                         target="_blank"
                     >
                         <i class="far fa-eye disabled"></i> View project
@@ -180,7 +180,7 @@
 
                     <a
                         class="btn btn-light"
-                        href="https://apps.apple.com/se/app/sukhadukkha/id1538439267?l=en"
+                        href="https://apps.apple.com/gb/app/property-manager/id1544783613"
                         target="_blank"
                     >
                         <i class="far fa-eye disabled"></i> View project
