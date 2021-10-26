@@ -204,6 +204,23 @@
                         <i class="far fa-eye disabled"></i> View project
                     </a>
                 </div>
+            <div class="item">
+                <div class="image-link">
+                    <img src="../assets/projects/Multi.png" alt />
+                </div>
+                <div class="icons">
+                    <a
+                        class="btn btn-dark disabled"
+                        href="https://github.com/michelebyman/multiturbo"
+                        target="_blank"
+                    >
+                        <i class="fab fa-adobe disabled"></i> Multiturbo
+                    </a>
+
+                    <a class="btn btn-light disabled">
+                        <i class="far fa-eye disabled"></i> View project
+                    </a>
+                </div>
             </div>
         </div>
     </div>
