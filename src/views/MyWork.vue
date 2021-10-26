@@ -162,6 +162,32 @@
                 </div>
             </div>
             <div class="item">
+                <a
+                    href="https://github.com/michelebyman/sukha"
+                    target="_blank"
+                    class="image-link"
+                >
+                    <img src="../assets/projects/propertyManager.png" alt />
+                </a>
+                <div class="icons">
+                    <a
+                        class="btn btn-dark"
+                        href="https://github.com/michelebyman/fastighetsAppen-CRUD/tree/main/fastighetsAppen"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github"></i> Swift Property Manager
+                    </a>
+
+                    <a
+                        class="btn btn-light"
+                        href="https://apps.apple.com/se/app/sukhadukkha/id1538439267?l=en"
+                        target="_blank"
+                    >
+                        <i class="far fa-eye disabled"></i> View project
+                    </a>
+                </div>
+            </div>
+            <div class="item">
                 <div class="image-link">
                     <img src="../assets/projects/olausfastigheter.png" alt />
                 </div>
