@@ -183,7 +183,7 @@
                         href="https://apps.apple.com/gb/app/property-manager/id1544783613"
                         target="_blank"
                     >
-                        <i class="far fa-eye disabled"></i> View project
+                        <i class="far fa-eye"></i> View project
                     </a>
                 </div>
             </div>
@@ -217,7 +217,7 @@
                         <i class="fab fa-adobe"></i> Multiturbo
                     </a>
 
-                    <a class="btn btn-light">
+                    <a class="btn btn-light"  href="https://apps.apple.com/se/app/multiturbo/id1553701228?l=en">
                         <i class="far fa-eye"></i> View project
                     </a>
                 </div>
