@@ -214,7 +214,7 @@
                         href="https://github.com/michelebyman/multiturbo"
                         target="_blank"
                     >
-                        <i class="fab fa-adobe"></i> Multiturbo
+                        <i class="fab fa-github"></i> Multiturbo
                     </a>
 
                     <a class="btn btn-light"  href="https://apps.apple.com/se/app/multiturbo/id1553701228?l=en">
