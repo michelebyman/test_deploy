@@ -9,7 +9,6 @@
                 v-model="query"
                 type="text"
             />
-
             <button class="btn">Get Weather</button>
         </form>
         <p v-if="error" class="error-message">
@@ -55,6 +54,7 @@
                 {{ currentWeather.temperature }}℃ ,
                 {{ currentWeather.weather_descriptions[0] }} and feels like
                 {{ currentWeather.feelslike }}
+
             </p>
         </div>
         <div class="loaderWrapper" v-if="isLoading">
@@ -97,7 +97,7 @@ export default {
                 this.isLoading = true;
 
                 const response = await fetch(
-                    `http://api.weatherstack.com/current?access_key=${process.env.VUE_APP_WEATHER_API}&query=${this.query}`
+                    `https://api.weatherstack.com/current?access_key=${process.env.VUE_APP_WEATHER_API}&query=${this.query}`
                 );
 
                 const apiResponse = await response.json();
